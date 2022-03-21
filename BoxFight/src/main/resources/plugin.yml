@@ -1,0 +1,14 @@
+name: Boxfight
+version: '${project.version}'
+main: bysap.boxfight.main.Boxfight
+api-version: 1.16
+authors: [ luck212 ]
+commands:
+  kit:
+    description: Öffnet das Inventar zur Kit auswahl
+  removekit:
+    description: Entferne das Kit eines Spielers
+  timer:
+    description: Starte oder Stoppe den Timer
+  clearplayers:
+    description: Leert die Spielerliste
